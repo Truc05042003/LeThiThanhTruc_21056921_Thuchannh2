@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #1c1a1a;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #431919;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 500px;
+            text-align: center;
+        }
+        .login-container h1 {
+            color: #fff;
+        }
+        .input-field {
+            margin: 10px 0;
+        }
+        .input-field input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+        }
+        .input-field input[type="text"],
+        .input-field input[type="password"] {
+            background-color: #555;
+            color: #fff;
+        }
+        .login-button {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <div class="input-field">
+            <input type="text" placeholder="User">
+        </div>
+        <div class="input-field">
+            <input type="password" placeholder="Password">
+        </div>
+        <button class="login-button">Login</button>
+    </div>
+</body>
+</html>
